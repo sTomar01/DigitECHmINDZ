@@ -1,0 +1,285 @@
+body{
+    background-color:rgb(241, 241, 241);
+    margin:0px;
+    padding: 0px;
+    
+  }
+
+ /* ------starting of header------*/ 
+
+  /* ------starting of TOp- header background------*/ 
+
+.top-navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom:1px solid white;
+    background: #ff00cc; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333399, 	#800080, #ff00cc); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #333399,	#800080, #ff00cc);
+
+  /* ------ending of TOp- header background------*/ 
+
+  /* ------Starting  of left-TOp- header------*/ 
+    
+}
+.left-top a:link{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color:white;
+    text-decoration: none;
+    padding:10px;
+}
+
+.left-top a i{
+    color:hsl(0, 0%, 100%);
+    padding-right:08px;   
+}
+
+
+.left-top a:hover i{
+    color:hsl(327, 100%, 51%);
+  }
+
+    /* ------ending of left-TOp- header background------*/ 
+
+  /* ------Starting  of right-TOp- header------*/ 
+  .right-top{
+      margin-top:-18px;
+      margin-bottom:-18px;
+      margin-right:30px;
+    
+   
+
+  }
+
+  .right-top a i{
+    color:hsl(0, 0%, 100%);
+    background:rgba(0, 0, 0, 0.253);  
+    font-size: 26px;
+    border-radius: 05px;
+    padding:12px 08px 10px 08px;
+    padding-right:10px;
+    border-bottom:2px solid black;
+
+  }
+
+.right-top a:hover i{
+    color:hsla(308, 100%, 50%, 0.966);
+  }
+
+   /* ------ending  of right-TOp- header------*/ 
+
+    /* ------starting  of  header------*/ 
+
+ 
+  .nav-link{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+      /* ------ending  of  header------*/ 
+
+       /* ------starting of 1st section------*/ 
+
+
+.bg1{
+  
+  background: -webkit-linear-gradient(to bottom, #febe00, #d73707); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #febe00, #d73707);
+
+}
+
+ .container1{
+    display:flex;
+    justify-content:center;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: transparent;
+  }
+
+
+  #Digi1{
+    color:white;
+    font-family:"Ovo", Sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  #heading1{
+    color: white;
+    font-family: "Odibee Sans", Sans-serif;
+    font-size: 95px;
+    font-weight: 600;
+    line-height: 1.2em;
+    letter-spacing: 1.5px;
+  }
+
+  .summ{
+    color: white;
+    font-family:'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  #knowmore-btn{
+    margin-top: 20px;
+  
+    width: 130px;
+    color: white;
+    background-color: transparent;
+    border-style: solid ;
+    border-width: 1px 1px 5px 1px;
+    border-color: white;
+    border-radius: 25px;
+    font-family:"Ovo", Sans-serif;
+    text-transform: uppercase;
+    font-weight:600;
+    padding:10px;
+    font-size: 14px;
+    
+  }
+
+
+  
+  #main-img{
+    max-width: fit-content;
+  }
+
+    /* ------ending of 1st section------*/ 
+
+     /* ------starting of 1st service section------*/ 
+
+  .container2{
+    display:flex;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: transparent;
+    margin-top: 50px;
+  }
+
+  .container2-col1{
+    max-width: 400px;
+    justify-content:center;
+    padding-left: 50px;
+    margin-right: 50px;
+  }
+
+  .container2-col2{
+    max-width: 350px;
+    margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: white;
+  transition: 0.3s;
+
+  }
+
+  #heading2{
+    font-family: "Odibee Sans", Sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+  }
+
+  #summ2{
+    
+    font-family:'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  #main-img2{
+    max-width: 300px;
+  }
+
+  #heading3{
+    
+    font-family:  'Kelly Slab', cursive;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  #summ3{
+    
+      font-family:'Poppins', sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      color: #3A3A3A;
+    }
+  #service-botton{
+    float:right;
+    font-size: 18px;
+  }
+  
+  .container2-col2:hover{
+    background-color: #272727;
+    margin-top: -20px;
+}
+  
+.container2-col2:hover #heading3{
+  color: white;
+
+}
+
+.container2-col2:hover #summ3{
+  color: #3A3A3A;
+
+}
+
+ #service-botton{
+  color: white;
+
+}
+
+ /* ------ending of 1st service section------*/ 
+
+ /* ------starting of 2nd service section------*/ 
+
+.container3{
+  display:flex;
+  align-items: center;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-top: 0px;
+  padding-bottom: 50px;
+  background-color: transparent;
+}
+
+.container3-col2{
+  max-width: 350px;
+  margin: 20px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+text-align: center;
+padding: 30px;
+border-radius: 20px;
+background-color: white;
+transition: 0.3s;
+margin-left:80px;
+
+}
+
+.container3-col2:hover{
+  background-color: black;
+  margin-top: -20px;
+}
+
+.container3-col2:hover #heading3{
+color: white;
+
+}
+
+.container3-col2:hover #summ3{
+color: white;
+
+}
+
+ /* ------ending of 2nd service section------*/ 
+
